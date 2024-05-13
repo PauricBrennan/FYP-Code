@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematyp>
+<package format="3">
+  <name>lifty_nodes</name>
+  <version>0.1.0</version>
+  <description>
+    Lifty raspberry pi 4 ros2 humble nodes
+  </description>
+
+  <maintainer email="pmbrenn.edu@gmail.com">Pauric Brennan</maintainer>
+
+  <license>''</license>
+
+  <url> todo </url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>ament_cmake_python</build_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <depend>fyp_interfaces</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
