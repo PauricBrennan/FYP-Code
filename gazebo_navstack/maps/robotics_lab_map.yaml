@@ -1,0 +1,7 @@
+image: robotics_lab_map.png
+resolution: 0.1
+mode: trinary
+origin: [0.0, 0.0, 0.0]
+negate: 0
+occupied_thresh: 0.95
+free_thresh: 0.90
